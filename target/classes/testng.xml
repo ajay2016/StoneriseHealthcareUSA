@@ -1,0 +1,55 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite"  >         
+  
+   
+   <test name="CoronaUpdateAndTelevisitLinkTest" >
+	 <classes>
+	   <class name="com.stonerisehealthcare.testcases.CoronaUpdateAndTelevisitLinkTest"/>
+	 </classes>
+   </test>
+   
+    <test name="SkilledNursingCentersLinksTest" >
+	 <classes>
+	   <class name="com.stonerisehealthcare.testcases.SkilledNursingCentersLinksTest"/>
+	 </classes>
+   </test>
+   
+  <test name="CareersLinkTest" >
+	 <classes>
+	   <class name="com.stonerisehealthcare.testcases.Careers"/>
+	 </classes>
+   </test>
+   
+    <test name="AboutUsLinkTest" >
+	 <classes>
+	   <class name="com.stonerisehealthcare.testcases.AboutUs"/>
+	 </classes>
+   </test>
+   
+   <test name="ContactLinkTest" >
+	 <classes>
+	   <class name="com.stonerisehealthcare.testcases.Contact"/>
+	 </classes>
+   </test>
+   
+   <test name="ResourcesLinkTest" >
+	 <classes>
+	   <class name="com.stonerisehealthcare.testcases.Resources"/>
+	 </classes>
+   </test>
+   
+   <test name="OtherServicesLinksTest" >
+	 <classes>
+	   <class name="com.stonerisehealthcare.testcases.OtherServicesLinksTest"/>
+	 </classes>
+   </test>
+   
+   <test name="ContactAndConnectLinksTest" >
+	 <classes>
+	   <class name="com.stonerisehealthcare.testcases.ContactAndConnectLinksTest"/>
+	 </classes>
+   </test>
+   
+   
+</suite>

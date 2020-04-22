@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="CoronaUpdateAndTelevisitLinkTest(failed)">
+    <classes>
+      <class name="com.stonerisehealthcare.testcases.CoronaUpdateAndTelevisitLinkTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="coronatelevisitlink" invocation-numbers="2 3"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.CoronaUpdateAndTelevisitLinkTest -->
+      <class name="com.stonerisehealthcare.testcases.SkilledNursingCentersLinksTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.SkilledNursingCentersLinksTest -->
+      <class name="com.stonerisehealthcare.testcases.Resources">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.Resources -->
+      <class name="com.stonerisehealthcare.testcases.OtherServicesLinksTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.OtherServicesLinksTest -->
+      <class name="com.stonerisehealthcare.testcases.ContactAndConnectLinksTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.ContactAndConnectLinksTest -->
+      <class name="com.stonerisehealthcare.testcases.Contact">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.Contact -->
+      <class name="com.stonerisehealthcare.testcases.Careers">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.Careers -->
+      <class name="com.stonerisehealthcare.testcases.AboutUs">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.AboutUs -->
+    </classes>
+  </test> <!-- CoronaUpdateAndTelevisitLinkTest(failed) -->
+  <test name="SkilledNursingCentersLinksTest(failed)">
+    <classes>
+      <class name="com.stonerisehealthcare.testcases.SkilledNursingCentersLinksTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+          <include name="nursingcentreslinks" invocation-numbers="2 3"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.SkilledNursingCentersLinksTest -->
+      <class name="com.stonerisehealthcare.testcases.CoronaUpdateAndTelevisitLinkTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.CoronaUpdateAndTelevisitLinkTest -->
+      <class name="com.stonerisehealthcare.testcases.Resources">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.Resources -->
+      <class name="com.stonerisehealthcare.testcases.OtherServicesLinksTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.OtherServicesLinksTest -->
+      <class name="com.stonerisehealthcare.testcases.ContactAndConnectLinksTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.ContactAndConnectLinksTest -->
+      <class name="com.stonerisehealthcare.testcases.Contact">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.Contact -->
+      <class name="com.stonerisehealthcare.testcases.Careers">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.Careers -->
+      <class name="com.stonerisehealthcare.testcases.AboutUs">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.AboutUs -->
+    </classes>
+  </test> <!-- SkilledNursingCentersLinksTest(failed) -->
+  <test name="CareersLinkTest(failed)">
+    <classes>
+      <class name="com.stonerisehealthcare.testcases.CoronaUpdateAndTelevisitLinkTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.CoronaUpdateAndTelevisitLinkTest -->
+      <class name="com.stonerisehealthcare.testcases.SkilledNursingCentersLinksTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.SkilledNursingCentersLinksTest -->
+      <class name="com.stonerisehealthcare.testcases.Resources">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.Resources -->
+      <class name="com.stonerisehealthcare.testcases.OtherServicesLinksTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.OtherServicesLinksTest -->
+      <class name="com.stonerisehealthcare.testcases.ContactAndConnectLinksTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.ContactAndConnectLinksTest -->
+      <class name="com.stonerisehealthcare.testcases.Contact">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.Contact -->
+      <class name="com.stonerisehealthcare.testcases.Careers">
+        <methods>
+          <include name="initTest"/>
+          <include name="careerslink" invocation-numbers="2 3"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.Careers -->
+      <class name="com.stonerisehealthcare.testcases.AboutUs">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.AboutUs -->
+    </classes>
+  </test> <!-- CareersLinkTest(failed) -->
+  <test name="AboutUsLinkTest(failed)">
+    <classes>
+      <class name="com.stonerisehealthcare.testcases.CoronaUpdateAndTelevisitLinkTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.CoronaUpdateAndTelevisitLinkTest -->
+      <class name="com.stonerisehealthcare.testcases.SkilledNursingCentersLinksTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.SkilledNursingCentersLinksTest -->
+      <class name="com.stonerisehealthcare.testcases.Resources">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.Resources -->
+      <class name="com.stonerisehealthcare.testcases.OtherServicesLinksTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.OtherServicesLinksTest -->
+      <class name="com.stonerisehealthcare.testcases.ContactAndConnectLinksTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.ContactAndConnectLinksTest -->
+      <class name="com.stonerisehealthcare.testcases.Contact">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.Contact -->
+      <class name="com.stonerisehealthcare.testcases.Careers">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.Careers -->
+      <class name="com.stonerisehealthcare.testcases.AboutUs">
+        <methods>
+          <include name="otherserviceslinks" invocation-numbers="2 3"/>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.AboutUs -->
+    </classes>
+  </test> <!-- AboutUsLinkTest(failed) -->
+  <test name="ContactLinkTest(failed)">
+    <classes>
+      <class name="com.stonerisehealthcare.testcases.CoronaUpdateAndTelevisitLinkTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.CoronaUpdateAndTelevisitLinkTest -->
+      <class name="com.stonerisehealthcare.testcases.SkilledNursingCentersLinksTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.SkilledNursingCentersLinksTest -->
+      <class name="com.stonerisehealthcare.testcases.Resources">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.Resources -->
+      <class name="com.stonerisehealthcare.testcases.OtherServicesLinksTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.OtherServicesLinksTest -->
+      <class name="com.stonerisehealthcare.testcases.ContactAndConnectLinksTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.ContactAndConnectLinksTest -->
+      <class name="com.stonerisehealthcare.testcases.Contact">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+          <include name="otherserviceslinks" invocation-numbers="2 3"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.Contact -->
+      <class name="com.stonerisehealthcare.testcases.Careers">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.Careers -->
+      <class name="com.stonerisehealthcare.testcases.AboutUs">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.AboutUs -->
+    </classes>
+  </test> <!-- ContactLinkTest(failed) -->
+  <test name="ResourcesLinkTest(failed)">
+    <classes>
+      <class name="com.stonerisehealthcare.testcases.CoronaUpdateAndTelevisitLinkTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.CoronaUpdateAndTelevisitLinkTest -->
+      <class name="com.stonerisehealthcare.testcases.SkilledNursingCentersLinksTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.SkilledNursingCentersLinksTest -->
+      <class name="com.stonerisehealthcare.testcases.Resources">
+        <methods>
+          <include name="initTest"/>
+          <include name="otherserviceslinks" invocation-numbers="2 3"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.Resources -->
+      <class name="com.stonerisehealthcare.testcases.OtherServicesLinksTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.OtherServicesLinksTest -->
+      <class name="com.stonerisehealthcare.testcases.ContactAndConnectLinksTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.ContactAndConnectLinksTest -->
+      <class name="com.stonerisehealthcare.testcases.Contact">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.Contact -->
+      <class name="com.stonerisehealthcare.testcases.Careers">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.Careers -->
+      <class name="com.stonerisehealthcare.testcases.AboutUs">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.AboutUs -->
+    </classes>
+  </test> <!-- ResourcesLinkTest(failed) -->
+  <test name="OtherServicesLinksTest(failed)">
+    <classes>
+      <class name="com.stonerisehealthcare.testcases.CoronaUpdateAndTelevisitLinkTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.CoronaUpdateAndTelevisitLinkTest -->
+      <class name="com.stonerisehealthcare.testcases.SkilledNursingCentersLinksTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.SkilledNursingCentersLinksTest -->
+      <class name="com.stonerisehealthcare.testcases.Resources">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.Resources -->
+      <class name="com.stonerisehealthcare.testcases.OtherServicesLinksTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="otherserviceslinks" invocation-numbers="2 3"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.OtherServicesLinksTest -->
+      <class name="com.stonerisehealthcare.testcases.ContactAndConnectLinksTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.ContactAndConnectLinksTest -->
+      <class name="com.stonerisehealthcare.testcases.Contact">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.Contact -->
+      <class name="com.stonerisehealthcare.testcases.Careers">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.Careers -->
+      <class name="com.stonerisehealthcare.testcases.AboutUs">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.AboutUs -->
+    </classes>
+  </test> <!-- OtherServicesLinksTest(failed) -->
+  <test name="ContactAndConnectLinksTest(failed)">
+    <classes>
+      <class name="com.stonerisehealthcare.testcases.CoronaUpdateAndTelevisitLinkTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.CoronaUpdateAndTelevisitLinkTest -->
+      <class name="com.stonerisehealthcare.testcases.SkilledNursingCentersLinksTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.SkilledNursingCentersLinksTest -->
+      <class name="com.stonerisehealthcare.testcases.Resources">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.Resources -->
+      <class name="com.stonerisehealthcare.testcases.ContactAndConnectLinksTest">
+        <methods>
+          <include name="otherserviceslinks" invocation-numbers="2 3"/>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.ContactAndConnectLinksTest -->
+      <class name="com.stonerisehealthcare.testcases.OtherServicesLinksTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.OtherServicesLinksTest -->
+      <class name="com.stonerisehealthcare.testcases.Contact">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.Contact -->
+      <class name="com.stonerisehealthcare.testcases.Careers">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.Careers -->
+      <class name="com.stonerisehealthcare.testcases.AboutUs">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.AboutUs -->
+    </classes>
+  </test> <!-- ContactAndConnectLinksTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

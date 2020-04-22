@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.stonerisehealthcare.testcases.ContactAndConnectLinksTest">
+        <methods>
+          <include name="otherserviceslinks" invocation-numbers="2 3"/>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.stonerisehealthcare.testcases.ContactAndConnectLinksTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
