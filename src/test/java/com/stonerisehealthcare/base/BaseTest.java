@@ -151,7 +151,7 @@ public class BaseTest {
 	//Cliok on the element
 	public void click(String xpathElementKey) throws IOException {
 		
-		test.log(Status.INFO, "Clicking on element" +xpathElementKey);
+		test.log(Status.INFO, "Clicking on element   " +xpathElementKey);
 		getElement(xpathElementKey).click();
 		
 	}
