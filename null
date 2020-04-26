@@ -1,33 +1,16 @@
-1587514376054	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ajay\\AppData\\Local\\Temp\\rust_mozprofileE5ygqg"
-1587514376956	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
-1587514376958	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
-1587514379235	Marionette	INFO	Listening on port 64449
-1587514379691	Marionette	WARN	TLS certificate errors will be ignored for this session
-[Parent 15656, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 298
-[Parent 15656, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 298
-[Parent 15656, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
-[Child 11848, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x3500BA,name=PContent::Msg_ScriptErrorWithStack) Channel closing: too late to send/recv, messages will be lost
-
-[Child 2292, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
-[Parent 15656, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
-[Child 16388, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
-console.error: BroadcastService: 
-  receivedBroadcastMessage: handler for
-  remote-settings/monitor_changes
-  threw error:
-  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
-  Stack:
-    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
-
-1587514414699	Marionette	INFO	Stopped listening on port 64449
-[Parent 15656, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
-[Parent 15656, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1587864486251	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ajay\\AppData\\Local\\Temp\\rust_mozprofilezbIYbb"
+1587864487346	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1587864487347	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1587864489535	Marionette	INFO	Listening on port 49792
+1587864489878	Marionette	WARN	TLS certificate errors will be ignored for this session
+1587864502651	Marionette	INFO	Stopped listening on port 49792
+[Parent 11084, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 7324, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 7324, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 11084, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-[GPU 9812, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 

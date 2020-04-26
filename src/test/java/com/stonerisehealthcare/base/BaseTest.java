@@ -52,6 +52,7 @@ public class BaseTest {
 	public void initialize() throws IOException {
 		//Returns the simple name of the underlying class 
 		testName = this.getClass().getSimpleName();
+		System.out.println(testName);
 		if (prop == null) {
 			//Creates an empty property list with no default values
 			prop = new Properties();

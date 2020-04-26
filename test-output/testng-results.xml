@@ -2,20 +2,20 @@
 <testng-results skipped="2" failed="0" ignored="0" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="89391" started-at="2020-04-21T22:32:09Z" finished-at="2020-04-21T22:33:39Z">
+  <suite name="Default suite" duration-ms="61345" started-at="2020-04-26T01:27:22Z" finished-at="2020-04-26T01:28:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="89391" started-at="2020-04-21T22:32:09Z" finished-at="2020-04-21T22:33:39Z">
-      <class name="com.stonerisehealthcare.testcases.ContactAndConnectLinksTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.stonerisehealthcare.testcases.ContactAndConnectLinksTest@f6c48ac]" name="initialize" is-config="true" duration-ms="13" started-at="2020-04-22T08:32:09Z" finished-at="2020-04-22T08:32:09Z">
+    <test name="Default test" duration-ms="61345" started-at="2020-04-26T01:27:22Z" finished-at="2020-04-26T01:28:24Z">
+      <class name="com.stonerisehealthcare.testcases.AboutUs">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.stonerisehealthcare.testcases.AboutUs@239963d8]" name="initialize" is-config="true" duration-ms="14" started-at="2020-04-26T11:27:22Z" finished-at="2020-04-26T11:27:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="initTest()[pri:0, instance:com.stonerisehealthcare.testcases.ContactAndConnectLinksTest@f6c48ac]" name="initTest" is-config="true" duration-ms="171" started-at="2020-04-22T08:32:10Z" finished-at="2020-04-22T08:32:10Z">
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.stonerisehealthcare.testcases.AboutUs@239963d8]" name="initTest" is-config="true" duration-ms="206" started-at="2020-04-26T11:27:23Z" finished-at="2020-04-26T11:27:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initTest -->
-        <test-method status="PASS" signature="otherserviceslinks(java.util.Hashtable)[pri:0, instance:com.stonerisehealthcare.testcases.ContactAndConnectLinksTest@f6c48ac]" name="otherserviceslinks" duration-ms="40161" started-at="2020-04-22T08:32:10Z" data-provider="getData" finished-at="2020-04-22T08:32:50Z">
+        <test-method status="PASS" signature="otherserviceslinks(java.util.Hashtable)[pri:0, instance:com.stonerisehealthcare.testcases.AboutUs@239963d8]" name="otherserviceslinks" duration-ms="39525" started-at="2020-04-26T11:27:23Z" data-provider="getData" finished-at="2020-04-26T11:28:03Z">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- otherserviceslinks -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.stonerisehealthcare.testcases.ContactAndConnectLinksTest@f6c48ac]" name="quit" is-config="true" duration-ms="1212" started-at="2020-04-22T08:32:50Z" finished-at="2020-04-22T08:32:52Z">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.stonerisehealthcare.testcases.AboutUs@239963d8]" name="quit" is-config="true" duration-ms="1741" started-at="2020-04-26T11:28:03Z" finished-at="2020-04-26T11:28:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="otherserviceslinks(java.util.Hashtable)[pri:0, instance:com.stonerisehealthcare.testcases.ContactAndConnectLinksTest@f6c48ac]" name="otherserviceslinks" duration-ms="35100" started-at="2020-04-22T08:32:52Z" data-provider="getData" finished-at="2020-04-22T08:33:27Z">
+        <test-method status="PASS" signature="otherserviceslinks(java.util.Hashtable)[pri:0, instance:com.stonerisehealthcare.testcases.AboutUs@239963d8]" name="otherserviceslinks" duration-ms="17548" started-at="2020-04-26T11:28:05Z" data-provider="getData" finished-at="2020-04-26T11:28:22Z">
           <params>
             <param index="0">
               <value>
@@ -41,15 +41,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- otherserviceslinks -->
-        <test-method status="PASS" signature="initTest()[pri:0, instance:com.stonerisehealthcare.testcases.ContactAndConnectLinksTest@f6c48ac]" name="initTest" is-config="true" duration-ms="0" started-at="2020-04-22T08:32:52Z" finished-at="2020-04-22T08:32:52Z">
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.stonerisehealthcare.testcases.AboutUs@239963d8]" name="initTest" is-config="true" duration-ms="0" started-at="2020-04-26T11:28:05Z" finished-at="2020-04-26T11:28:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initTest -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.stonerisehealthcare.testcases.ContactAndConnectLinksTest@f6c48ac]" name="quit" is-config="true" duration-ms="11533" started-at="2020-04-22T08:33:27Z" finished-at="2020-04-22T08:33:38Z">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.stonerisehealthcare.testcases.AboutUs@239963d8]" name="quit" is-config="true" duration-ms="1326" started-at="2020-04-26T11:28:22Z" finished-at="2020-04-26T11:28:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="SKIP" signature="otherserviceslinks(java.util.Hashtable)[pri:0, instance:com.stonerisehealthcare.testcases.ContactAndConnectLinksTest@f6c48ac]" name="otherserviceslinks" duration-ms="5" started-at="2020-04-22T08:33:38Z" data-provider="getData" finished-at="2020-04-22T08:33:38Z">
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.stonerisehealthcare.testcases.AboutUs@239963d8]" name="initTest" is-config="true" duration-ms="0" started-at="2020-04-26T11:28:23Z" finished-at="2020-04-26T11:28:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="SKIP" signature="otherserviceslinks(java.util.Hashtable)[pri:0, instance:com.stonerisehealthcare.testcases.AboutUs@239963d8]" name="otherserviceslinks" duration-ms="13" started-at="2020-04-26T11:28:23Z" data-provider="getData" finished-at="2020-04-26T11:28:23Z">
           <params>
             <param index="0">
               <value>
@@ -63,7 +67,7 @@
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.SkipException: Test skipped since rumode is N
-	at com.stonerisehealthcare.testcases.ContactAndConnectLinksTest.otherserviceslinks(ContactAndConnectLinksTest.java:28)
+	at com.stonerisehealthcare.testcases.AboutUs.otherserviceslinks(AboutUs.java:28)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -95,19 +99,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- otherserviceslinks -->
-        <test-method status="PASS" signature="initTest()[pri:0, instance:com.stonerisehealthcare.testcases.ContactAndConnectLinksTest@f6c48ac]" name="initTest" is-config="true" duration-ms="0" started-at="2020-04-22T08:33:38Z" finished-at="2020-04-22T08:33:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initTest -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.stonerisehealthcare.testcases.ContactAndConnectLinksTest@f6c48ac]" name="quit" is-config="true" duration-ms="271" started-at="2020-04-22T08:33:38Z" finished-at="2020-04-22T08:33:39Z">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.stonerisehealthcare.testcases.AboutUs@239963d8]" name="quit" is-config="true" duration-ms="64" started-at="2020-04-26T11:28:23Z" finished-at="2020-04-26T11:28:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="initTest()[pri:0, instance:com.stonerisehealthcare.testcases.ContactAndConnectLinksTest@f6c48ac]" name="initTest" is-config="true" duration-ms="0" started-at="2020-04-22T08:33:39Z" finished-at="2020-04-22T08:33:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initTest -->
-        <test-method status="SKIP" signature="otherserviceslinks(java.util.Hashtable)[pri:0, instance:com.stonerisehealthcare.testcases.ContactAndConnectLinksTest@f6c48ac]" name="otherserviceslinks" duration-ms="6" started-at="2020-04-22T08:33:39Z" data-provider="getData" finished-at="2020-04-22T08:33:39Z">
+        <test-method status="SKIP" signature="otherserviceslinks(java.util.Hashtable)[pri:0, instance:com.stonerisehealthcare.testcases.AboutUs@239963d8]" name="otherserviceslinks" duration-ms="6" started-at="2020-04-26T11:28:24Z" data-provider="getData" finished-at="2020-04-26T11:28:24Z">
           <params>
             <param index="0">
               <value>
@@ -121,7 +117,7 @@
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.SkipException: Test skipped since rumode is N
-	at com.stonerisehealthcare.testcases.ContactAndConnectLinksTest.otherserviceslinks(ContactAndConnectLinksTest.java:28)
+	at com.stonerisehealthcare.testcases.AboutUs.otherserviceslinks(AboutUs.java:28)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -153,11 +149,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- otherserviceslinks -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.stonerisehealthcare.testcases.ContactAndConnectLinksTest@f6c48ac]" name="quit" is-config="true" duration-ms="134" started-at="2020-04-22T08:33:39Z" finished-at="2020-04-22T08:33:39Z">
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.stonerisehealthcare.testcases.AboutUs@239963d8]" name="initTest" is-config="true" duration-ms="0" started-at="2020-04-26T11:28:24Z" finished-at="2020-04-26T11:28:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.stonerisehealthcare.testcases.AboutUs@239963d8]" name="quit" is-config="true" duration-ms="60" started-at="2020-04-26T11:28:24Z" finished-at="2020-04-26T11:28:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-      </class> <!-- com.stonerisehealthcare.testcases.ContactAndConnectLinksTest -->
+      </class> <!-- com.stonerisehealthcare.testcases.AboutUs -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
