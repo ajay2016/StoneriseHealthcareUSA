@@ -30,6 +30,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
 import org.testng.asserts.SoftAssert;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -37,6 +38,8 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import com.stonerisehealthcare.reports.ExtentManager;
+import com.stonerisehealthcare.utility.DataUtil;
+import com.stonerisehealthcare.utility.Xls_Reader;
 import com.sun.org.apache.xerces.internal.impl.xpath.regex.ParseException;
 
 public class BaseTest {
@@ -46,6 +49,7 @@ public class BaseTest {
 	public ExtentReports rep;
 	public ExtentTest test;
 	public String testName;
+	public Xls_Reader xls;
 	public SoftAssert softAssert;
 
 	@BeforeTest
@@ -62,7 +66,9 @@ public class BaseTest {
 			//Reads a property list (key and element pairs) from the inputbyte stream. 
 			prop.load(file);
 		}
-
+		
+		//Initialize XLs file on each test
+		xls = new Xls_Reader(prop.getProperty("xlsPath"));
 	}
 
 	@BeforeMethod
@@ -97,6 +103,13 @@ public class BaseTest {
 		if (rep != null)
 			//Writes test information from the started reporters to their output view
 			rep.flush();
+	}
+	
+	//Data Provider
+	@DataProvider
+	public Object[][] getData() {
+		//xls = new Xls_Reader(prop.getProperty("xlsPath"));
+		return DataUtil.getTestData(xls, testName);
 	}
 
 	

@@ -4,18 +4,18 @@ import java.io.IOException;
 import java.util.Hashtable;
 
 import org.testng.SkipException;
-import org.testng.annotations.DataProvider;
+
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.Status;
 import com.stonerisehealthcare.base.BaseTest;
 import com.stonerisehealthcare.utility.DataUtil;
-import com.stonerisehealthcare.utility.Xls_Reader;
+
 
 public class Contact extends BaseTest {
 	
-	String testName = "Contact";
-	Xls_Reader xls;
+	//String testName = "Contact";
+	//Xls_Reader xls;
 
 	@Test(dataProvider = "getData")
 	public void otherserviceslinks(Hashtable<String, String> data) throws IOException {
@@ -41,11 +41,11 @@ public class Contact extends BaseTest {
 	}
 	
 	
-	@DataProvider
-	public Object[][] getData() {
-		xls = new Xls_Reader(prop.getProperty("xlsPath"));
-		return DataUtil.getTestData(xls, testName);
-	}
+	/*
+	 * @DataProvider public Object[][] getData() { xls = new
+	 * Xls_Reader(prop.getProperty("xlsPath")); return DataUtil.getTestData(xls,
+	 * testName); }
+	 */
 
 	
 	
